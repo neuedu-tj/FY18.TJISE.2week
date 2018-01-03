@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#d1 {
+				height: 200px;
+				width: 200px;
+				background-color: lavender;
+				
+				position: relative;
+				
+				overflow: hidden;/*隐藏溢出部分*/
+			}
+			#d2 {
+				height: 30px;
+				width: 100px;
+				background-color:lightsalmon;
+				
+				position: absolute;
+				right: -20px;
+				
+				transform: rotate(40deg);
+				
+				box-shadow: 1px 1px 10px black;/*阴影*/
+			}
+		</style>	
+	</head>
+	<body>
+		
+		<div id="d1">
+			<div id="d2"></div>
+		</div>
+		
+	</body>
+</html>
