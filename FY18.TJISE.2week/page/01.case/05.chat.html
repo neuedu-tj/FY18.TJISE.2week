@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.container {
+				margin: 0 auto; /* 居中 */
+				
+				margin-top: 10px;
+				padding-top: 10px;
+			
+				width: 475px;
+			}
+			
+			.container div {
+				display: inline-block;
+			}
+			
+			.context {
+				height: 100px;
+				width: 300px;
+				background-color: #80CBC4;
+				margin: 0px 10px 10px 10px;
+			}
+			
+			.img {
+				height: 50px;
+				width: 50px;
+				background-color: #9E9E9E;
+				margin: 0px 10px 0px 10px;
+				vertical-align:top;
+			}
+			
+			.align-left {
+				text-align: left;
+				background-image: linear-gradient(to left , #ECEFF1 , #CFD8DC);
+			}
+			
+			.align-right {
+				text-align: right;
+				background-image: linear-gradient(to right , #ECEFF1 , #CFD8DC);
+			}
+			
+			.context-left {
+				border-radius: 0px 10px 10px 0px;
+				border-left: 5px #26A69A solid;
+			}
+			.context-right {
+				border-radius: 10px 0px 0px 10px;
+				border-right: 5px #26A69A solid;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="container align-left">
+			<div class="img"></div>
+			<div class="context context-left"></div>
+		</div>
+
+		<div class="container align-right">
+			<div class="context context-right"></div>
+			<div class="img"></div>
+		</div>
+		
+		<div class="container align-right">
+			<div class="context context-right"></div>
+			<div class="img"></div>
+		</div>
+		
+		<div class="container align-right">
+			<div class="context context-right"></div>
+			<div class="img"></div>
+		</div>
+		
+		
+
+	</body>
+
+</html>
