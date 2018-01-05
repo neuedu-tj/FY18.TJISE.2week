@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#d1 {
+				margin: 50px 0px 0px 0px;
+				background-color: #EC407A;
+				height: 300px;
+				width: 400px;
+				
+				overflow: hidden;
+			}
+			
+			#d2 {
+				background-color: #26A69A;
+				top: -50px;
+				left: 350px;
+				border-radius: 50%;
+				box-shadow: 0px 0px 10px black;
+			}
+			
+			#d3 {
+				background-color: #42A5F5;
+			}
+			
+			.box-size {
+				height: 100px;
+				width: 100px;
+			}
+			
+			.position-relative {
+				position: relative;
+			}
+			
+			.position-absolute {
+				position: absolute;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="d1" class="box-size position-relative">
+			<div id="d2" class="box-size position-absolute"></div>
+			<!--<div id="d3" class="box-size position-relative"></div>-->
+		</div>
+		
+
+	</body>
+
+</html>
