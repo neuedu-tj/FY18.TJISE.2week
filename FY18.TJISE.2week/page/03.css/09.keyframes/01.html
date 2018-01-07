@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			@-webkit-keyframes me{
+				0%{
+					transform: translate(0px , 0px)
+				}
+				25% {
+					transform: translate(100px , 0px)
+				}
+				50% {
+					transform: translate(100px , 100px)
+				}
+				75% {
+					transform: translate(0px , 100px)
+				}
+				100%{transform: translate(0px , 0px)}
+			}
+			
+			@-webkit-keyframes me2{
+				0%{
+					transform:rotate(0deg)
+				}
+				25% {
+					transform:rotate(90deg)
+				}
+				50% {
+					transform:rotate(180deg)
+				}
+				75% {
+					transform:rotate(270deg)
+				}
+				100%{
+					transform:rotate(360deg)
+				}
+			}
+			
+			#d1 {
+				background-color: #29B6F6;
+				height: 100px;
+				width: 100px;
+				border-radius: 50%;
+				
+				transition: all 2s ease;
+				
+			}
+			
+			#d1:hover {
+				/*transform: translate(100px , 100px)*/
+				animation: me 4s linear  infinite ; /* alternate; */
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		
+		<div id="d1">光盘</div>
+		
+	</body>
+</html>
