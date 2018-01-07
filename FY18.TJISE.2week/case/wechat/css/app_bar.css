@@ -1,5 +1,95 @@
 
 #app_bar {
 	width: 100%;
-	height: 40px;
+	height: 30px;
+	
+	display: flex;
+	flex-flow: row nowrap; 
+	
+	background-color: #212121;
+	color: white;
+	font-size: 90%;
+	font-weight: 100;
+}
+
+
+#app_bar_left {
+	flex: 2;
+	height: 30px;
+}
+#app_bar_left div {
+	margin: 2px;
+}
+
+
+
+
+
+
+
+#singnal {
+	width: 50px;
+	height: 30px;
+}
+#singnal div{
+	width: 50px;
+	height: 20px;
+	display: flex;
+	align-items: flex-end;
+}
+
+#singnal div div:nth-child(1) {
+	width: 4px;
+	height: 6px;
+	
+}
+#singnal div div:nth-child(2) {
+	width: 4px;
+	height: 8px;
+}
+#singnal div div:nth-child(3) {
+	width: 4px;
+	height: 11px;
+}
+#singnal div div:nth-child(4) {
+	width: 4px;
+	height: 14px;
+}
+
+.has-singnal {
+	background-color: #FAFAFA;
+}
+.no-singnal {
+	border: 1px solid #FAFAFA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#operator {
+	width: 70px;
+	height: 30px;
+}
+#xg {
+	width: 20px;
+	height: 30px;
+}
+
+
+#app_bar_center {
+	flex: 1;
+	height: 30px;
+}
+
+#app_bar_right {
+	flex: 2;
+	height: 30px;
 }

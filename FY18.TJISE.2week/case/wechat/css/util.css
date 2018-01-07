@@ -3,3 +3,21 @@
 .border {
 	border: 1px solid red;
 }
+
+
+.flex-row-nowarp {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.align-col-end {
+	align-items: flex-end;
+}
+
+.align-col-center {
+	align-items: center;
+}
+
+.align-row-right {
+	justify-content: flex-end;
+}
