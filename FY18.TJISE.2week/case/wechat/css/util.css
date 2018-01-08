@@ -29,7 +29,12 @@
 	justify-content: flex-end;
 }
 
-
-.postion-relateive {
+/* 相对定位 */
+.postion-rela {
 	position: relative;
+}
+
+/* 绝对定位 */
+.postion-abs {
+	position: absolute;
 }
