@@ -9,6 +9,12 @@
 	display: flex;
 	flex-flow: row nowrap;
 }
+/* 弹性 纵向布局  不重复 */
+.flex-col-nowarp {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
 
 /* 对齐-纵向 : 居中*/
 .align-col-center {

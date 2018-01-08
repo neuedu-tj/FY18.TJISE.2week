@@ -1,6 +1,6 @@
 $(function() {
 	 //每1秒 执行的函数  // 定时任务
-//	var task = setInterval("updateQuantity()", 1000)
+	var task = setInterval("updateQuantity()", 1000)
 
 	$("#batteray").click(function() {
 		clearInterval(task);
