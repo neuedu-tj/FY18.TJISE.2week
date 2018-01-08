@@ -28,3 +28,8 @@
 .align-row-right {
 	justify-content: flex-end;
 }
+
+
+.postion-relateive {
+	position: relative;
+}
