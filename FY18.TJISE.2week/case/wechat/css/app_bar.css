@@ -1,14 +1,11 @@
 
 #app_bar {
 	width: 100%;
-	height: 30px;
-	
-	display: flex;
-	flex-flow: row nowrap; 
+	height: 28px;
 	
 	background-color: #212121;
 	color: white;
-	font-size: 90%;
+	font-size: 76%;
 	font-weight: 100;
 }
 
@@ -18,49 +15,39 @@
 	height: 30px;
 }
 #app_bar_left div {
-	margin: 2px;
+	margin: 1.4px;
 }
-
-
-
-
 
 
 
 #singnal {
-	width: 50px;
-	height: 30px;
-}
-#singnal div{
-	width: 50px;
-	height: 20px;
-	display: flex;
-	align-items: flex-end;
+	width: 30px;
+	height: 18px;
 }
 
-#singnal div div:nth-child(1) {
-	width: 4px;
-	height: 6px;
-	
+#singnal  div:nth-child(1) {
+	height: 4px;
 }
-#singnal div div:nth-child(2) {
-	width: 4px;
-	height: 8px;
+#singnal  div:nth-child(2) {
+	height: 7px;
 }
-#singnal div div:nth-child(3) {
-	width: 4px;
-	height: 11px;
+#singnal  div:nth-child(3) {
+	height: 10px;
 }
-#singnal div div:nth-child(4) {
-	width: 4px;
-	height: 14px;
+#singnal  div:nth-child(4) {
+	height: 12px;
 }
 
 .has-singnal {
+	width: 4px;
 	background-color: #FAFAFA;
 }
 .no-singnal {
+	width: 3px;
 	border: 1px solid #FAFAFA;
+}
+.has-singnal , .no-singnal , #batteray {
+	border-radius: 1px;
 }
 
 
@@ -76,20 +63,47 @@
 
 #operator {
 	width: 70px;
-	height: 30px;
+	height: 18px;
 }
 #xg {
 	width: 20px;
-	height: 30px;
+	height: 18px;
 }
 
-
+/*  12"00" am*/
 #app_bar_center {
 	flex: 1;
-	height: 30px;
+	height: 18px;
 }
 
+
+
+/* 右侧电池区域 */
 #app_bar_right {
 	flex: 2;
-	height: 30px;
+	height: 18px;
+}
+
+#batteray {
+	height: 10px;
+	width: 26px;
+	border: 1px solid #E0E0E0;
+}
+
+#batteray_body {
+	height: 9px;
+	width: 16px;
+	background-color: #7FFF00;
+}
+
+#batteray_head {
+	background-color: #E0E0E0;
+	height: 4px;
+	width: 2px;
+	border-radius: 0px 1px 1px 0px;
+	margin-right: 3px;
+}
+
+#batteray_quantity {
+	margin-right: 3px;
 }
