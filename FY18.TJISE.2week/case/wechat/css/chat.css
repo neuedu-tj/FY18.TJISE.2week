@@ -47,6 +47,11 @@
 
 /*   聊天列表部分 :start     */
 
+#contents {
+	width: 100%;
+	background-color: #FAFAFA;
+}
+
 .content {
 	height: 64px;
 	width: 96%;
@@ -61,13 +66,13 @@
 	
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	
 }
 
 .conent_body {
 	height: 64px;
-	flex: 1;
+	width: 100%;
 	margin-left: 8px;
 }
 
@@ -82,11 +87,23 @@
 }
 .chat_msg {
 	height: 28px;
-	width: 100%;
+	/*width: auto;*/
+	flex: 1;
 	color: #757575;
 	font-size: 80%;
 	line-height: 28px;
 }
+
+.chat_msg_audio {
+		height: 28px;
+	/*width: auto;*/
+	flex: 1;
+	color: #d32f2f;
+	font-size: 80%;
+	line-height: 28px;
+
+}
+
 
 
 
@@ -107,4 +124,9 @@
 .silent {
 	height: 20px;
 	width: 100%;
+	background-image: url(../img/chat/免打扰.svg) ;
+	background-repeat: no-repeat;
+	background-size: 20%;
+	background-position: bottom right;
 }
+
