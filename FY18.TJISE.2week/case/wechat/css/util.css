@@ -48,9 +48,9 @@
 
 /* 内容溢出 */
 .content_over {
-	text-overflow:ellipsis;
+	text-overflow:clip;
 	overflow: hidden;
 	/*white-space:nowrap;*/
-	word-break: break-word; 
+	/*word-break: break-word;*/ 
 	
 }
