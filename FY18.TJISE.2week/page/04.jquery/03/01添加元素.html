@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			.me{
+				color: blue;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<input id="name"  />  
+		<input type="button" id="btn" value="go" />
+		
+		<hr />
+		
+		<div id="result"></div>
+		
+	</body>
+</html>
+
+<script type="text/javascript" src="../robot/jquery/jquery.js" ></script>
+
+<script>
+	
+	$(function(){
+		
+		$("#btn").click(function(){
+			
+			var name = $("#name").val() 
+			
+			//创建元素
+			var sub_div = $("<div>"+name+"</div>");
+			sub_div.addClass("me")
+			
+			//将此元素  追加到父节点
+			$("#result").append( sub_div )
+		})
+		
+	})
+	
+</script>
