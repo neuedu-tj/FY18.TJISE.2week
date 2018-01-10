@@ -8,7 +8,6 @@
 		<style>
 			.item {
 				border-radius: 6px;
-				;
 				text-indent: 10px;
 				margin-top: 10px;
 				height: 40px;
@@ -61,10 +60,11 @@
 
 		})
 
+/*下一首*/
 		$("#next").click(function() {
 			var target = $(".playing");
 			
-			if( target.data("source") == $(".item:last-child").data("source") ) {
+			if( target.data("source") == $(".item:last-child").data("source") ) {   //如果当前播放歌曲的路径  = 歌曲列表最后一首的路径  ， 证明当前歌曲是最后一首 . 
 				
 				$("#player").attr('src', $(".item:first-child").data("source"));
 				
@@ -78,8 +78,10 @@
 				target.removeClass("playing")
 
 			}
-
+			
+			//开始播放
 			$("#player")[0].play();
+			//并显示当前的歌曲名称
 			$("#curr").html($(".playing").data("source"))
 
 		})
